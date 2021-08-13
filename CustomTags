@@ -1,0 +1,62 @@
+package com.onewellington.core.models.data;
+
+/**
+ * This model is returning the Custom Tag
+ * 
+ * @author RengaSe
+ *
+ */
+public class CustomTag {
+
+	/* the title */
+	private String title;
+	
+	/* the tagID */
+	private String tagID;
+
+	/* the tag color */
+	private String tagcolor;
+
+	/**
+	 * @return tagID
+	 */
+	public String getTagID() {
+		return tagID;
+	}
+
+	/**
+	 * set tagID
+	 */
+	public void setTagID(String tagID) {
+		this.tagID = tagID;
+	}
+	
+	/**
+	 * @return title
+	 */
+	public String getTitle() {
+		return title;
+	}
+
+	/**
+	 * set title
+	 */
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	/**
+	 * @return tag color
+	 */
+	public String getTagcolor() {
+		return tagcolor;
+	}
+
+	/**
+	 * set tag color
+	 */
+	public void setTagcolor(String tagcolor) {
+		this.tagcolor = tagcolor;
+	}
+
+}
