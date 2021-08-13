@@ -1,0 +1,1074 @@
+{
+	"jcr:primaryType": "sling:Folder",
+	"jcr:mixinTypes": [
+		"sling:Redirect",
+		"rep:AccessControllable"
+	],
+	"jcr:createdBy": "admin",
+	"jcr:title": "Tags",
+	"hidden": true,
+	"sling:target": "/tagging",
+	"jcr:created": "Mon May 11 2020 10:09:06 GMT-0500",
+	"sling:resourceType": "sling:redirect",
+	"languages": [
+		"en",
+		"de",
+		"es",
+		"fr",
+		"it",
+		"pt_br",
+		"zh_cn",
+		"zh_tw",
+		"ja",
+		"ko_kr"
+	],
+	"workflow": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Workflow",
+		"jcr:created": "Mon May 11 2020 10:12:36 GMT-0500",
+		"jcr:description": "",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"system": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "System",
+			"jcr:created": "Mon May 11 2020 10:12:36 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag"
+		},
+		"wcm": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "WCM",
+			"jcr:created": "Mon May 11 2020 10:13:57 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"translatelanguagecopy": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Translate Language Copy",
+				"jcr:created": "Mon May 11 2020 10:13:57 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"translation": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Translation",
+				"jcr:created": "Mon May 11 2020 10:13:57 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"projects": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Projects",
+			"jcr:created": "Mon May 11 2020 10:16:36 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"wcm": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "WCM",
+				"jcr:created": "Mon May 11 2020 10:16:36 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag",
+				"launch": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Launch",
+					"jcr:created": "Mon May 11 2020 10:16:36 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag",
+					"sling:resoureType": "cq/tagging/components/tag"
+				},
+				"email": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Email",
+					"jcr:created": "Mon May 11 2020 10:16:36 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"landingpage": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Landing Page",
+					"jcr:created": "Mon May 11 2020 10:16:36 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				}
+			}
+		},
+		"adobe-launch": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Adobe Launch",
+			"jcr:created": "Mon May 11 2020 10:17:11 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag"
+		}
+	},
+	"forum": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Forum",
+		"jcr:created": "Mon May 11 2020 10:19:56 GMT-0500",
+		"jcr:description": "",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"topic": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Topic",
+			"jcr:created": "Mon May 11 2020 10:19:56 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"hot": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Hot",
+				"jcr:created": "Mon May 11 2020 10:19:56 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"answered": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Answered",
+				"jcr:created": "Mon May 11 2020 10:20:05 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"chosenanswer": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Chosen Answer",
+				"jcr:created": "Mon May 11 2020 10:20:05 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"unanswered": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Unanswered",
+				"jcr:created": "Mon May 11 2020 10:20:05 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		}
+	},
+	"we-retail": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "We.Retail",
+		"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+		"jcr:description": "",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"activity": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Activity",
+			"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+			"jcr:lastModified": "Thu Nov 10 2011 10:20:59 GMT+0100",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"biking": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Biking",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"hiking": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Hiking",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"running": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Running",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"skiing": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Skiing",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"surfing": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Surfing",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"swimming": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Swimming",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"others": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Other",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"apparel": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Apparel",
+			"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"coat": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Coat",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"footwear": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Footwear",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"glasses": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Glasses",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"gloves": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Gloves",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"hat": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Hat",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"helmet": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Helmet",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"pancho": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Pancho",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"pants": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Pants",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"scarf": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Scarf",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"shirt": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Shirt",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"shorts": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Shorts",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"gender": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Gender",
+			"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"women": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Women",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"men": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Men",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"unisex": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Unisex",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"season": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Season",
+			"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"summer": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Summer",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"winter": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Winter",
+				"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"equipment": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Equipment",
+			"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+			"sling:resourceType": "cq/tagging/components/tag"
+		},
+		"commonly-asked-question": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Commonly Asked Question",
+			"jcr:created": "Mon May 11 2020 10:21:23 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag"
+		}
+	},
+	"experience-fragments": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Experience Fragments",
+		"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+		"jcr:description": "Tag structured used by the Experience Fragments feature",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"variation": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Variation",
+			"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+			"jcr:description": "A tag used by the experience fragments variations",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"web": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Web",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the web variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"facebook": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Facebook",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the Facebook variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"pinterest": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Pinterest",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the Pinterest variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"screens": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Screens",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the Screens variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		}
+	},
+	"default": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Standard Tags",
+		"jcr:created": "Mon May 11 2020 10:12:36 GMT-0500",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"variation": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Variation",
+			"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+			"jcr:description": "A tag used by the experience fragments variations",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"web": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Web",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the web variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"facebook": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Facebook",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the Facebook variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"pinterest": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Pinterest",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the Pinterest variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"screens": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Screens",
+				"jcr:created": "Mon May 11 2020 10:16:56 GMT-0500",
+				"jcr:description": "A tag used by the Screens variations of an experience fragment",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		}
+	},
+	"rep:policy": {
+		"jcr:primaryType": "rep:ACL",
+		"allow": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "communities-tag-admin",
+			"rep:privileges": [
+				"jcr:versionManagement",
+				"jcr:modifyAccessControl",
+				"jcr:read",
+				"jcr:readAccessControl",
+				"crx:replicate",
+				"rep:write",
+				"jcr:lockManagement"
+			]
+		},
+		"allow1": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "dam-replication-service",
+			"rep:privileges": [
+				"jcr:modifyAccessControl",
+				"jcr:modifyProperties",
+				"jcr:read",
+				"crx:replicate",
+				"jcr:readAccessControl"
+			]
+		},
+		"allow2": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "tag-administrators",
+			"rep:privileges": [
+				"jcr:versionManagement",
+				"jcr:modifyAccessControl",
+				"jcr:read",
+				"jcr:readAccessControl",
+				"crx:replicate",
+				"rep:write",
+				"jcr:lockManagement"
+			]
+		},
+		"allow3": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "everyone",
+			"rep:privileges": [
+				"jcr:read"
+			],
+			"rep:restrictions": {
+				"jcr:primaryType": "rep:Restrictions",
+				"rep:glob": ""
+			}
+		},
+		"allow4": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "tag-garbage-collection-service",
+			"rep:privileges": [
+				"jcr:read",
+				"crx:replicate",
+				"rep:write"
+			]
+		},
+		"allow5": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "tag-validation-service",
+			"rep:privileges": [
+				"jcr:read"
+			]
+		},
+		"allow6": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "translation-job-service",
+			"rep:privileges": [
+				"jcr:modifyProperties",
+				"jcr:read"
+			]
+		},
+		"allow7": {
+			"jcr:primaryType": "rep:GrantACE",
+			"rep:principalName": "acs-commons-remote-assets-service",
+			"rep:privileges": [
+				"jcr:versionManagement",
+				"jcr:read",
+				"crx:replicate",
+				"rep:write"
+			]
+		}
+	},
+	"wknd": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "WKND",
+		"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+		"jcr:description": "WKND Tags",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"activity": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Activity",
+			"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"cycling": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Cycling",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"hiking": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Hiking",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"surfing": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Surfing",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"skateboarding": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Skateboarding",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"skiing": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Skiing",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"climbing": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Climbing",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"camping": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Camping",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"running": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Running",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"snowboarding": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Snowboarding",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"social": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Social",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"hunting-fishing": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Hunting & Fishing",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"season": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Season",
+			"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"summer": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Summer",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"spring": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Spring",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"winter": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Winter",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"fall": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Fall",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"region": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Region",
+			"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"apac": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "APAC",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "Asia Pacific",
+				"sling:resourceType": "cq/tagging/components/tag",
+				"australia": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Australia",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"new-zealand": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "New Zealand",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				}
+			},
+			"emea": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "EMEA",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "Europe, Middle East and Africa",
+				"sling:resourceType": "cq/tagging/components/tag",
+				"italy": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Italy",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"norway": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Norway",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"switzerland": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Switzerland",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				}
+			},
+			"latam": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "LATAM",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "Latin America",
+				"sling:resourceType": "cq/tagging/components/tag",
+				"brazil": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Brazil",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"costa-rica": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Costa Rica",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"nicaragua": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Nicaragua",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				}
+			},
+			"nam": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "NAM",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "North America",
+				"sling:resourceType": "cq/tagging/components/tag",
+				"united-states": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "United States",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				},
+				"canada": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Canada",
+					"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				}
+			}
+		},
+		"customer-journey": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Customer Journey",
+			"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+			"jcr:description": "Customer journey stage",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"attract": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Attract",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"engage": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Engage",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"convert": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Convert",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"support": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Support",
+				"jcr:created": "Mon May 11 2020 11:05:35 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		}
+	},
+	"core-components-examples": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:mixinTypes": [
+			"rep:AccessControllable"
+		],
+		"jcr:createdBy": "admin",
+		"jcr:title": "Core Components Examples",
+		"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+		"jcr:description": "",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"component-type": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Component Type",
+			"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"basic": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Basic",
+				"jcr:created": "Mon May 11 2020 11:02:14 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"container": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Container",
+				"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"form": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Form",
+				"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"reference": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Reference",
+				"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"social": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Social",
+				"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"template": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Template",
+				"jcr:created": "Mon May 11 2020 10:13:03 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"region": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Region",
+			"jcr:created": "Mon May 11 2020 11:02:14 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"europe-middleeast-africa": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Europe, Middle East and Africa",
+				"jcr:created": "Mon May 11 2020 11:02:14 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"north-america": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "North America",
+				"jcr:created": "Mon May 11 2020 11:02:14 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		}
+	},
+	"properties": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:createdBy": "admin",
+		"jcr:title": "Asset Properties",
+		"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+		"jcr:description": "",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"orientation": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Orientation",
+			"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"portrait": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Portrait",
+				"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"landscape": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Landscape",
+				"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"square": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Square",
+				"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			}
+		},
+		"style": {
+			"jcr:primaryType": "cq:Tag",
+			"jcr:createdBy": "admin",
+			"jcr:title": "Style",
+			"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+			"jcr:description": "",
+			"sling:resourceType": "cq/tagging/components/tag",
+			"color": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Color",
+				"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag"
+			},
+			"monochrome": {
+				"jcr:primaryType": "cq:Tag",
+				"jcr:createdBy": "admin",
+				"jcr:title": "Monochrome",
+				"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+				"jcr:description": "",
+				"sling:resourceType": "cq/tagging/components/tag",
+				"grayscale": {
+					"jcr:primaryType": "cq:Tag",
+					"jcr:createdBy": "admin",
+					"jcr:title": "Grayscale",
+					"jcr:created": "Mon May 11 2020 10:15:44 GMT-0500",
+					"jcr:description": "",
+					"sling:resourceType": "cq/tagging/components/tag"
+				}
+			}
+		}
+	},
+	"facebook": {
+		"jcr:primaryType": "cq:Tag",
+		"jcr:mixinTypes": [
+			"rep:AccessControllable"
+		],
+		"jcr:createdBy": "admin",
+		"jcr:title": "Facebook",
+		"jcr:created": "Mon May 11 2020 10:19:46 GMT-0500",
+		"sling:resourceType": "cq/tagging/components/tag",
+		"rep:policy": {
+			"jcr:primaryType": "rep:ACL",
+			"allow": {
+				"jcr:primaryType": "rep:GrantACE",
+				"rep:principalName": "communities-ugc-writer",
+				"rep:privileges": [
+					"jcr:read",
+					"rep:write"
+				]
+			},
+			"allow1": {
+				"jcr:primaryType": "rep:GrantACE",
+				"rep:principalName": "everyone",
+				"rep:privileges": [
+					"jcr:read"
+				]
+			}
+		}
+	}
+}
